@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+body {
+  margin: auto;
+  padding: auto;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background-image: url("background.png");
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+dialog{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+}
