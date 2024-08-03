@@ -74,7 +74,7 @@ function update() {
         if (bird.y > canvas.height-birdHeight*2){
             velocityY=-8
         }
-        if (bird.y < canvas.height-birdHeight*2 && bird.y > 100 && Math.random() > .85 && timer > 25){
+        if (bird.y < canvas.height-birdHeight*2 && bird.y > 100 && Math.random()*movingSpeed*secondsPassed > .85 && timer > 25){
             velocityY=-8
             timer = 0
         }
